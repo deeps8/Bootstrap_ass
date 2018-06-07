@@ -1,0 +1,73 @@
+body{
+	background-color: #333 !important;
+}
+h1,h2,h3,h4,h5,h6{
+
+}
+p{
+	margin: 0 !important;
+}
+.sr-input{
+	border-radius: 25px !important;
+    border: 1px solid #828485 ;
+    outline: none;
+    padding: 2px 25px 2px 27px !important;
+}
+.row{
+	margin:10px 0;
+}
+.c1{
+	    padding: 10px 35px !important;
+}
+.btn-css{
+	text-align: center; 
+}
+.btn-css a{
+	margin:0 15px; 
+}
+/*.resent-posts{
+	margin: 30px 0;
+}*/
+.social_m{
+	font-size: 25px;
+}
+.social_m a i{
+	margin-right: 5px;
+}
+.post-info{
+	font-size: 18px;
+}
+.post-info h5{
+	display: inline;
+}
+.post-info h5,.post-info span{
+	margin-right: 30px;
+}
+.post-info span{
+	color: grey;
+}
+.btntoday{
+	float: right;
+}
+.view-post{
+	font-size: 15px;
+	text-decoration: underline;
+	float: right;
+}
+#srbtn{
+	position: absolute;
+    left: 8px;
+    top: 3px;
+    cursor: pointer;
+}
+#reset{
+	position: absolute;
+    top: 3px;
+    right: 8px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1023px){
+	.sr-input{
+		width: 100%;
+	}
+}
